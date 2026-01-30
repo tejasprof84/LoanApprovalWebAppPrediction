@@ -7,9 +7,6 @@ app = Flask(__name__)
 model  = pickle.load(open("model.pkl","rb"))
 
 
-@app.route("/",methods=["GET"])
-def home():
-    return "how are you"
 
 
 @app.route("/predict",methods=["GET"])
