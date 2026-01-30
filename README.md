@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Loan Approval Prediction Web App
 
 This project is a Flask-based web application for predicting loan approval using a machine learning model trained in a Jupyter Notebook. The app takes user input from a web form, encodes features as per the model's training pipeline, and returns the probability of loan approval.
@@ -64,3 +65,7 @@ This project is a Flask-based web application for predicting loan approval using
 
 ## License
 This project is for educational purposes.
+=======
+# LoanApprovalWebAppPrediction
+LoanApprovalWebApp is a Flask-based ML app that predicts loan approval probability from user inputs. It uses the same preprocessing and feature encoding as training, performs real-time model inference, and shows approval likelihood via a web interface, demonstrating end-to-end ML deployment.
+>>>>>>> e580d34e4c090572f3987781de1f8e9042285d67
